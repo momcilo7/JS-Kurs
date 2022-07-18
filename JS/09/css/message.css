@@ -1,0 +1,96 @@
+body{
+    background-image: url('../img/background.png');
+}
+
+
+
+h2{
+    position: fixed;
+    left: 40%;
+    color: white;
+}
+.content{
+    margin-top: 45px;
+    overflow-x:hidden;
+    border: 5px solid #000;
+    background-color: azure;
+}
+.single-message{
+    display: inline-flex;
+    margin: 10px;
+}
+.profile{
+    right: 0;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+.message-autor{
+    margin: 0 10px;
+}
+.footer{
+    /*
+        left:40%;
+        width: 35%;
+    */
+    position: fixed;
+    margin: 10px;
+    bottom: 0;
+
+}
+.smile{
+    position: absolute;
+    bottom: 0;
+    height: 24px;
+    width: 24px;
+    margin-right: 0;
+    max-width: 24px;
+    margin-left:70px;
+    margin-bottom: 10px;
+}
+.footer textarea{
+    resize: none;
+    outline-color: aqua;
+    /*bottom: 0;
+    display: inline;
+    margin-bottom: -22px;
+     margin: 5px 15px;*/
+    border: 2px solid #000;
+    position: fixed;
+    left:48%;
+}
+
+.footer button{
+    background-image: url(../img/send.png);
+    background-position: 5px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    /*display: inline-flex;
+    height: 100%;
+    width: 30%;
+    text-align:right;*/
+    border:2px solid #000;
+    padding: 10px 35px;
+    margin-left: 310px;
+}
+/*
+.footer button span{
+    margin-left: 40px;
+}
+*/
+.footer button:hover{
+    border:2px solid aqua;
+}
+
+.inpt{
+    display: inline;
+}
+button#back{
+    background-image: url(../img/back.png);
+    background-repeat: no-repeat;
+    background-position: 5px;
+    padding: 10px 30px;
+    background-color: transparent;
+    color: white;
+    border: none;
+}

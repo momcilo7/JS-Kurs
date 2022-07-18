@@ -1,0 +1,5 @@
+.single-item{
+    display: inline-block;
+    border: solid #000 1px;
+    background-color: rgb(236, 247, 146);
+}

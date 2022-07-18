@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styleHexa.css">
+    <title>Hexa</title>
+</head>
+<body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="inner-container left-side">
+                        <img src="img/profile-icon.png" class="profile">
+                        <p id="username"></p>
+                        <p id="email"></p>
+                        <button id='editAccount'>Izmeni nalog</button>
+                        <button id='logout'>Odjavi se</button>
+                    </div>
+                    <div class="message left-side">
+                        <h2>Chat with others member of HEXA</h2>
+                        <button id="msg">Message</button>
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <div class="inner-container right-side">
+                        <form id="postForm">
+                            <textarea class="textArea"></textarea>
+                            <button id="post">Objavi</button>
+                        </form>
+
+                        <div id="allPost">
+
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </div>
+        <!-- PopUp -->
+        
+        <div class="modal-div hidden">
+            <button id="close-modal">X</button>
+            <h2>Izmeni profil  </h2>
+              <form id="editForm">
+              
+                <div class="fld">
+                  <input id="korisnicko_ime" name="korisnicko_ime" placeholder="Korisnicko ime" type="text">
+                </div>
+        
+                <div class="fld">
+                  <input id="edit_email" name="email" placeholder="E-mail" type="text">
+                </div>
+        
+                <div>
+                  <button id="editProfile">Izmeni profil</button> 
+                </div>
+        
+                <hr>
+                <button id="deleteProfil">Obrisi profil</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="overlay hidden"></div>
+    
+    <script src="js/Session.js"></script>
+    <script src="js/User.js"></script>
+    <script src="js/Comment.js"></script>
+    <script src="js/Post.js"></script>
+    <script src="js/hexa.js"></script>
+</body>
+</html>

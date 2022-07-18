@@ -1,0 +1,40 @@
+html body{
+    background-color: rgb(207, 207, 204);
+}
+html .lJ9FBc input[type="submit"], .gbqfba{
+    /*-webkit-text-stroke:0.1px black;*/
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+}
+
+html #SIvCob{
+    display: none;
+}
+
+html .lnXdpd{
+    display: none;
+}
+
+.ml6 {
+    position: relative;
+    font-weight: 900;
+    font-size: 3.3em;
+}
+  
+.ml6 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
+    overflow: hidden;
+}
+  
+.ml6 .letter {
+    display: inline-block;
+    line-height: 1em;
+}
+
+/*html .LVal7b  .j1ei8c .tX9u1b .CgwTDb span .MrEfLc .MrEfLc{
+    background-image: url('img/gmail.png');
+}*/

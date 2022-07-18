@@ -1,0 +1,42 @@
+body{
+    background-color: white;
+}
+.zoom {
+    padding: 50px;
+    transition: transform .2s;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+  }
+  
+.hover {
+    transform: scale(1.5);
+}
+
+.colors{
+    margin-left: 75px;
+}
+
+#blue{
+    display: inline-flex;
+    height: 50px;
+    width: 50px;
+    background-color: aqua;
+    border: 1px #000 solid;
+}
+
+#yellow{
+    display: inline-flex;
+    height: 50px;
+    width: 50px;
+    background-color: yellow;
+    border: 1px #000 solid;
+}
+
+#green{
+    display: inline-flex;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(80, 179, 80);
+    border: 1px #000 solid;
+}
